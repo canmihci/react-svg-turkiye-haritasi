@@ -1,0 +1,10 @@
+.il {
+	cursor: pointer;
+	fill: #222;
+}
+.il:hover {
+	fill: #1094f6;
+}
+#guney-kibris {
+	pointer-events: none;
+}

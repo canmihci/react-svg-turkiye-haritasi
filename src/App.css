@@ -1,0 +1,11 @@
+.svg-turkiye-haritasi {
+	max-width: 1200px;
+	margin: 0 auto;
+	text-align: center;
+}
+.svg-turkiye-haritasi svg {
+	width: 100%;
+	height: auto;
+	-webkit-filter: invert(100%);
+	filter: invert(100%);
+}
