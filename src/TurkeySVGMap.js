@@ -47,9 +47,6 @@ class Il extends Component {
 }
 
 class SvgMapComponent extends Component {
-	constructor(props) {
-		super(props)
-	}
 	render() {
 		return (
 			<svg viewBox="0 0 1007.478 527.323">

@@ -30,7 +30,8 @@ class App extends Component {
 	}
 
 	getCoordinates(e) {
-		this.setState({ mouseX: e.screenX, mouseY: e.screenY })
+		console.log(e.clientX, e.clientY)
+		this.setState({ mouseX: e.clientX, mouseY: e.clientY })
 	}
 
 	render() {

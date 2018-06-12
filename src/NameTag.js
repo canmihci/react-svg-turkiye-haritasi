@@ -7,8 +7,8 @@ class NameTag extends Component {
 			<div
 				className="name-tag"
 				style={{
-					top: this.props.yPos - 80,
-					left: this.props.xPos + 15
+					top: this.props.yPos + 25,
+					left: this.props.xPos + 25
 				}}
 			>
 				{this.props.showing ? <div>{this.props.provinceName}</div> : null}
